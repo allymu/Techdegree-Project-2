@@ -1,0 +1,350 @@
+
+
+/* ======================
+        Base Styles
+========================== */
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    font-weight: 900;
+    color: #333333;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* ======================
+        Links
+========================== */
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a :visited {
+    color: #333;
+
+}
+
+a :hover {
+    color: #9c9c9c;
+}
+
+
+/* ======================
+Header Styles
+========================== */
+
+.name {
+    font-size: 1.75em;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    }
+
+.main-header {
+    text-align: center;
+}
+
+.main-nav li {
+    text-align: center;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    display: block;
+    background-color: white;
+    font-weight: 900;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.profile {
+    width: 60%;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.intro {
+    font-size: 1.35em;
+    font-weight: 400;
+    color: #505050;
+    padding-top: 30px;
+    display: block;
+    line-height: 1.4em;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    }
+
+/* ======================
+Portfolio Section Styles
+========================== */
+
+.section-title {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 35px;
+}
+
+.portfolio {
+    color: white;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+
+.portfolio-title {
+    color: #333;
+    margin-top: 30px;
+
+}
+
+.portfoliosubtext {
+    font-size: 1.25em;
+    color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.35em;
+}
+
+.portfolio-pic {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.portfolio-1, 
+.portfolio-2, 
+.portfolio-3, 
+.portfolio-4, 
+.portfolio-5, 
+.portfolio-6 {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+
+/* ======================
+Footer Section Styles
+========================== */
+
+.contact {
+    margin-top: 60px;
+}
+
+.outro {
+    font-size: 1.35em;
+    color: #505050;
+    line-height: 1.4em;
+    display: block;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.contacts {
+text-align: center;
+
+}
+
+.contactlabel {
+    color: #505050;
+    display: inline;
+    padding-right: 20px;
+    line-height: 2.5em;
+}
+
+.contactdata {
+    font-weight: 700;
+    color: #333;
+    display: inline;
+    line-height: 2.5em;
+}
+
+.main-footer {
+    display: block;
+    text-align: center;
+    border-top: solid 1px #505050;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    }
+
+.student {
+    font-weight: 700;
+    font-size: .85em;
+    color: #333;
+    float: left;
+    padding: 20px 0 20px 0;
+}
+
+.backtop {
+    font-size: .75em;
+    font-weight: 700;
+    color: #333;
+    float: right;
+    padding: 20px 0 20px 0;
+
+}
+
+.footer-nav li {
+display: none;
+
+}
+
+@media only screen and (min-width: 768px) {
+    
+.main-nav li {
+        background: none;
+        display: inline;
+    }
+
+.homelink  {
+    padding-right: 40px;
+}
+
+.contactlink {
+    padding-left: 40px;
+}
+
+.intro {
+    float: left;
+    text-align: left;
+    width: 60%;
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.profile {
+    float: right;
+    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-right: 30px;
+}
+
+.portfolio-1,
+.portfolio-3,
+.portfolio-5 {
+    float: left;
+    width: 50%;
+}
+
+.portfolio-2,
+.portfolio-4,
+.portfolio-6 {
+    float: left;
+    width: 50%;
+}
+
+.outro {
+padding-left: 100px;
+padding-right: 100px;
+}
+
+.backtop {
+    display: none;
+}
+
+.footer-nav li {
+    display: inline;
+    font-size: 16px;
+    font-weight: 900;
+    color: #333;
+    text-transform: capitalize;
+    list-style: none;
+    padding-left: 40px;
+}
+
+.footer-nav {
+    float: right;
+}
+
+
+.clearfix::after {
+    content:" ";
+    display: table;
+    clear: both;
+  }
+
+  }
+
+  
+
+
+@media only screen and (min-width: 1024px) {
+    
+.name {
+    float: left;
+    margin: 10px 0 15px 0;
+}
+
+.main-nav {
+    float: right;
+}
+
+.profile {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+}
+
+.intro {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.portfolio-1,
+.portfolio-2,
+.portfolio-3,
+.portfolio-4,
+.portfolio-5,
+.portfolio-6 {
+    width: 33%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.portfolio-6,
+.portfolio-5,
+.portfolio-4 {
+    float: right;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+}
