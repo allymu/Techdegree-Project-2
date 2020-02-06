@@ -11,7 +11,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f7f7f7;
+    background-color: #f3f3f3;
 }
 
 h1 {
@@ -115,7 +115,7 @@ Portfolio Section Styles
     padding-bottom: 10px;
     margin-top: 40px;
     margin-bottom: 50px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .portfolio-title {
@@ -291,7 +291,7 @@ padding-right: 100px;
 
 
 .clearfix::after {
-    content:" ";
+    content:"";
     display: table;
     clear: both;
   }
@@ -313,9 +313,7 @@ padding-right: 100px;
 }
 
 .profile {
-    margin-right: 0;
-    margin-left: 0;
-    padding-right: 0;
+    clear: both;
 }
 
 .intro {
