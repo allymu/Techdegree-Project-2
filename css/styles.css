@@ -12,6 +12,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f3f3f3;
+    margin: 0;
 }
 
 h1 {
@@ -108,14 +109,16 @@ Portfolio Section Styles
     margin-bottom: 35px;
 }
 
-.portfolio {
-    color: white;
+.portfolio-container {
+    background-color: #fff;
     width: 100%;
     padding-top: 50px;
     padding-bottom: 10px;
     margin-top: 40px;
     margin-bottom: 50px;
     overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .portfolio-title {
@@ -143,8 +146,7 @@ Portfolio Section Styles
 .portfolio-4, 
 .portfolio-5, 
 .portfolio-6 {
-    text-align: center;
-    background-color: white;
+    text-align: center;    
     width: 100%;
     margin-bottom: 50px;
     
@@ -220,6 +222,10 @@ display: none;
 
 }
 
+/* ======================
+Media Q 768 px
+========================== */
+
 @media only screen and (min-width: 768px) {
     
 .main-nav li {
@@ -257,6 +263,7 @@ display: none;
 .portfolio-5 {
     float: left;
     width: 50%;
+    
 }
 
 .portfolio-2,
@@ -298,8 +305,9 @@ padding-right: 100px;
 
   }
 
-  
-
+/* ======================
+Media Q 1024 px
+========================== */
 
 @media only screen and (min-width: 1024px) {
     
@@ -321,6 +329,12 @@ padding-right: 100px;
     padding-left: 0;
 }
 
+.portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
 .portfolio-1,
 .portfolio-2,
 .portfolio-3,
@@ -336,6 +350,11 @@ padding-right: 100px;
 .portfolio-5,
 .portfolio-4 {
     float: right;
+}
+
+.portfolio-4 {
+    margin-top: 25px;
+
 }
 
 .wrapper {
