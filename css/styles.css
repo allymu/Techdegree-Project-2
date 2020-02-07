@@ -263,7 +263,7 @@ Media Q 768 px
 .portfolio-5 {
     float: left;
     width: 50%;
-    
+    height: 400px;
 }
 
 .portfolio-2,
@@ -271,6 +271,8 @@ Media Q 768 px
 .portfolio-6 {
     float: left;
     width: 50%;
+    height: 400px;
+
 }
 
 .outro {
@@ -344,6 +346,7 @@ Media Q 1024 px
     width: 33%;
     float: left;
     margin-bottom: 30px;
+    height: 375px;
 }
 
 .portfolio-6,
@@ -352,10 +355,6 @@ Media Q 1024 px
     float: right;
 }
 
-.portfolio-4 {
-    margin-top: 25px;
-
-}
 
 .wrapper {
     width: 80%;
